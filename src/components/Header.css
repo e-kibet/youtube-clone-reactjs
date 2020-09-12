@@ -28,12 +28,22 @@
 .header__input > input {
   flex: 1;
   border: none;
+  color: gray;
+  font-size: 16px;
+}
+.header__input > input:focus {
+  outline: none;
+  border: 1px solid lightgray;
 }
 .header__inputButton {
   width: 50px !important;
   background-color: #fafafa;
   border-left: 1px solid lightgray;
   color: gray;
+}
+.header__inputButton:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 .header__icon {
   margin-right: 8px;
